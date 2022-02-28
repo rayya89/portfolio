@@ -1,10 +1,11 @@
-import NavigationBar from "./Components/NavigationBar";
+
+import Hero from "./Components/Hero";
 
 
 export default function App() {
   return (
     <div className="App">
-      <NavigationBar/>
+      <Hero/>
     </div>
   );
 }
