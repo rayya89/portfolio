@@ -1,0 +1,19 @@
+[
+    {   
+        "id": 1,
+        "icon": "Assets/Icons/envelop.svg",
+        "detail": "rayyatar@gmail.com"
+    },
+
+    {   
+        "id": 2,
+        "icon": "Assets/Icons/phone.svg",
+        "detail": "+46 73 7786886"
+    },
+
+    {   
+        "id": 3,
+        "icon": "Assets/Icons/location.svg",
+        "detail": "Gothenburg, Sweden"
+    }
+]

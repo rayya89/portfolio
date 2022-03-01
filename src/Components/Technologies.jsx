@@ -11,6 +11,7 @@ export default function Technologies() {
             <p>Here is the technologies that I already know and also starting to learn.</p>
         </div>
         <div className="content">
+            <ul>
             {
                 tech.map (techData => {
                     return(
@@ -23,6 +24,7 @@ export default function Technologies() {
                     )
                 })
             }
+            </ul>
         </div>
     </div>
   )

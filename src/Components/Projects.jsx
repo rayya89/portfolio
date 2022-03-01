@@ -11,6 +11,7 @@ export default function Projects() {
             <p>Here are the projects I will be making during the Frontend course at Novare Potential.</p>
         </div>
         <div className="content">
+            <ul>
             {
                 projects.map (projectData => {
                     return(
@@ -25,6 +26,7 @@ export default function Projects() {
                     )
                 })
             }
+            </ul>
         </div>
     </div>
   )
