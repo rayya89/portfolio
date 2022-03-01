@@ -1,0 +1,61 @@
+[
+    {   
+        "id": 1,
+        "icon": "Assets/Icons/react.svg",
+        "name": "React"
+    },
+
+    {   
+        "id": 2,
+        "icon": "Assets/Icons/html5.svg",
+        "name": "HTML5"
+    },
+
+    {   
+        "id": 3,
+        "icon": "Assets/Icons/Css3.svg",
+        "name": "CSS3"
+    },
+
+    {   
+        "id": 4,
+        "icon": "Assets/Icons/firebase.svg",
+        "name": "Firebase"
+    },
+
+    {   
+        "id": 5,
+        "icon": "Assets/Icons/java.svg",
+        "name": "Java"
+    },
+
+    {   
+        "id": 6,
+        "icon": "Assets/Icons/c++.svg",
+        "name": "C++"
+    },
+
+    {   
+        "id": 7,
+        "icon": "Assets/Icons/js.svg",
+        "name": "Javascript"
+    },
+
+    {   
+        "id": 8,
+        "icon": "Assets/Icons/figma.svg",
+        "name": "Figma"
+    },
+
+    {   
+        "id": 9,
+        "icon": "Assets/Icons/postgresSQL.svg",
+        "name": "PostgresSQL"
+    },
+
+    {   
+        "id": 10,
+        "icon": "Assets/Icons/photoshop.svg",
+        "name": "Photoshop"
+    }
+]
