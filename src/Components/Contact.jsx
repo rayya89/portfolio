@@ -38,7 +38,7 @@ export default function Contact() {
                     <li><a href="https://www.linkedin.com/in/raya-altarabulsi-043410116"><img src={linkedIn} alt="linkedin icon" /></a></li>
                     <li><a href="https://www.facebook.com/rio.tarab"><img src={facebook} alt="facebook icon" /></a></li>
                     </div>
-                    <small>&copy;{new Date().getFullYear} &bull; Raya Altarabulsi</small>
+                    <small> &copy; {new Date().getFullYear()} &bull; Raya Altarabulsi</small>
                 </div>
             </footer>
 

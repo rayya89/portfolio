@@ -1,7 +1,13 @@
-import React from 'react'
-import projects from '../Data/projects.json'
+import React, {useState} from "react";
+import Modal from './Modal'
+import Card from './Card'
+
 
 export default function Projects() {
+
+    const [openModal, setOpenModal] = useState(false);
+
+
   return (
     <div className="projects">
         <div className="heading">
@@ -12,20 +18,30 @@ export default function Projects() {
         </div>
         <div className="content">
             <ul>
-            {
-                projects.map (projectData => {
-                    return(
-                        <div className="contaier" key={projectData.id}>
-                            <li>
-                                <button>
-                                    <img src={projectData.picture} alt="what is the project about" />
-                                    <h3>{projectData.title}</h3>
-                                </button>
-                            </li>
-                        </div>
-                    )
-                })
-            }
+                <li><button onClick={() => setOpenModal(true)}><Card project={0} /></button></li>
+                {openModal && <Modal setOpenModal={setOpenModal} project={0} />}
+
+                <li><button onClick={() => setOpenModal(true)}><Card project={1} /></button></li>
+                {openModal && <Modal setOpenModal={setOpenModal} project={1} />}
+
+                <li><button onClick={() => setOpenModal(true)}><Card project={2} /></button></li>
+                {openModal && <Modal setOpenModal={setOpenModal} project={2} />}  
+
+                <li><button onClick={() => setOpenModal(true)}><Card project={3} /></button></li>
+                {openModal && <Modal setOpenModal={setOpenModal} project={3} />}  
+
+                <li><button onClick={() => setOpenModal(true)}><Card project={4} /></button></li>
+                {openModal && <Modal setOpenModal={setOpenModal} project={4} />}  
+
+                <li><button onClick={() => setOpenModal(true)}><Card project={5} /></button></li>
+                {openModal && <Modal setOpenModal={setOpenModal} project={5} />}  
+
+                <li><button onClick={() => setOpenModal(true)}><Card project={6} /></button></li>
+                {openModal && <Modal setOpenModal={setOpenModal} project={6} />}  
+
+                <li><button onClick={() => setOpenModal(true)}><Card project={7} /></button></li>
+                {openModal && <Modal setOpenModal={setOpenModal} project={7} />}  
+
             </ul>
         </div>
     </div>

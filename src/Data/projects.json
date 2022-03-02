@@ -1,13 +1,89 @@
 [
     {   
+        "id": 0,
+        "picture": "Assets/Pictures/EIKAPic.jpg",
+        "title": "EIKA shopping list",
+        "screenshot": "Assets/Pictures/EIKAApp.jpg",
+        "description": "This Application is a shopping list that allows users to add items names and prices and allows them to set any item as complete/uncomplete",
+        "techUsed": ["React", "Firebase", "CSS3"],
+        "webLink" : "https://eika-shopping-list-e347a.web.app/",
+        "gitLink" : "https://github.com/rayya89/shoppingList"
+    },
+
+    {   
         "id": 1,
-        "picture": "Assets/logo-full.png",
-        "title": "project1"
+        "picture": "Assets/Pictures/VeganPic.jpg",
+        "title": "Vegan restaurant website",
+        "screenshot": "Assets/Pictures/VeganPic.jpg",
+        "description": "This website is for a vegan restaurant and it will be added soon",
+        "techUsed": ["to be added"],
+        "webLink" : "",
+        "gitLink" : "https://github.com/rayya89/"
     },
 
     {   
         "id": 2,
-        "picture": "Assets/logo-full.png",
-        "title": "project2"
+        "picture": "Assets/Pictures/PackagePic.jpg",
+        "title": "Package tracker",
+        "screenshot": "Assets/Pictures/PackagePic.jpg",
+        "description": "This application is a package tracker and it will be added soon",
+        "techUsed": ["to be added"],
+        "webLink" : "",
+        "gitLink" : "https://github.com/rayya89/"
+    },
+
+    {   
+        "id": 3,
+        "picture": "Assets/Pictures/TTDPic.jpg",
+        "title": "Todo List TTD",
+        "screenshot": "Assets/Pictures/TTDPic.jpg",
+        "description": "This is a todo List application and it will be added soon",
+        "techUsed": ["to be added"],
+        "webLink" : "",
+        "gitLink" : "https://github.com/rayya89/"
+    },
+
+    {   
+        "id": 4,
+        "picture": "Assets/Pictures/EcommPic.jpg",
+        "title": "E-commerce site",
+        "screenshot": "Assets/Pictures/EcommPic.jpg",
+        "description": "This is an E-commerce site and it will be added soon",
+        "techUsed": ["to be added"],
+        "webLink" : "",
+        "gitLink" : "https://github.com/rayya89/"
+    },
+
+    {   
+        "id": 5,
+        "picture": "Assets/Pictures/BBQPic.jpg",
+        "title": "BBQ restaurant website",
+        "screenshot": "Assets/Pictures/BBQPic.jpg",
+        "description": "This is a BBQ restaurant website and it will be added soon",
+        "techUsed": ["to be added"],
+        "webLink" : "",
+        "gitLink" : "https://github.com/rayya89/"
+    },
+
+    {   
+        "id": 6,
+        "picture": "Assets/Pictures/LearningPic.jpg",
+        "title": "Learning Platform",
+        "screenshot": "Assets/Pictures/LearningPic.jpg",
+        "description": "This is a learning platform and it will be added soon",
+        "techUsed": ["to be added"],
+        "webLink" : "",
+        "gitLink" : "https://github.com/rayya89/"
+    },
+
+    {   
+        "id": 7,
+        "picture": "Assets/Pictures/NetflixPic.jpg",
+        "title": "Netflix clone",
+        "screenshot": "Assets/Pictures/NetflixPic.jpg",
+        "description": "This is a Netflix clone and it will be added soon",
+        "techUsed": ["to be added"],
+        "webLink" : "",
+        "gitLink" : "https://github.com/rayya89/"
     }
 ]
