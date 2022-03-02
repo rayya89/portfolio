@@ -1,0 +1,74 @@
+:root {
+  --navy: #112240;
+  --light-navy: #233554;
+  --green: #64ffda;
+  --slate: #a8b2d1;
+  --light-slate: #ccd6f6;
+  --primary-font: "Ubuntu", sans-serif;
+  --secondary-font: "Roboto Mono", monospace;
+  --letter-space: 1.5px;
+  --radius: 4px;
+  font-family: var(--primary-font);
+  background-color: var(--navy);
+  border-radius: var(--radius);
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+button {
+  background-color: transparent;
+  border-width: 0;
+  font-family: inherit;
+  font-size: inherit;
+  font-style: inherit;
+  font-weight: inherit;
+  line-height: inherit;
+  padding: 0;
+}
+
+li {
+  list-style: none;
+}
+
+lu {
+  list-style: none;
+}
+
+h1 {
+  font-size: 34px;
+  color: var(--slate);
+  letter-spacing: 1.5px;
+}
+
+h2 {
+  font-size: 22px;
+  color: var(--green);
+  letter-spacing: 1.5px;
+}
+
+h3 {
+  font-size: 17px;
+  font-weight: 500;
+}
+
+p {
+  font-size: 17px;
+  color: var(--slate);
+  line-height: 26px;
+}
+
+p span {
+  display: block;
+}
+
+a {
+  text-decoration: none;
+}
+
+.a:hover {
+  cursor: pointer;
+}

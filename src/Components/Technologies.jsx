@@ -1,5 +1,7 @@
 import React from 'react'
 import tech from '../Data/technologies.json'
+import '../Styles/Technologies.css'
+
 
 export default function Technologies() {
   return (
@@ -11,14 +13,14 @@ export default function Technologies() {
             <p>Here is the technologies that I already know and also starting to learn.</p>
         </div>
         <div className="content">
-            <ul>
+            <ul className="icon-grid">
             {
                 tech.map (techData => {
                     return(
                         <div className="contaier" key={techData.id}>
-                            <li>
-                                    <img src={techData.icon} alt="technology icon" />
-                                    <label>{techData.item}</label>
+                            <li className="icon-container">
+                                    <img className="tech-icon" src={techData.icon} alt="technology icon" />
+                                    <label className="tech-name" >{techData.name}</label>
                             </li>
                         </div>
                     )

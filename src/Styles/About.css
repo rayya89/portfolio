@@ -1,0 +1,14 @@
+@import "./MobileStyles.css";
+
+.img-container {
+  width: 333px;
+  height: 333px;
+  border-radius: var(--radius);
+}
+
+.about img {
+  width: 320px;
+  height: 320px;
+  object-fit: cover;
+  border-radius: var(--radius);
+}

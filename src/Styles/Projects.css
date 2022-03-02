@@ -1,0 +1,28 @@
+@import "./MobileStyles.css";
+
+.project button:hover {
+  cursor: pointer;
+}
+
+.card-grid {
+  --gap: 16px;
+  --num-cols: 2;
+  --row-height: 168px;
+  box-sizing: border-box;
+  padding: var(--gap);
+  display: grid;
+  grid-template-columns: repeat(var(--num-cols), 1fr);
+  grid-auto-rows: var(--row-height);
+  gap: var(--gap);
+}
+
+.card-grid > li {
+  width: 100%;
+  height: 100%;
+}
+
+@media all and (min-width: 801px) {
+  .card-grid {
+    --num-cols: 3;
+  }
+}

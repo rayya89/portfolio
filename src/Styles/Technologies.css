@@ -1,0 +1,39 @@
+@import "./MobileStyles.css";
+
+.icon-container {
+  height: 76px;
+  width: 68px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.tech-icon {
+  max-height: 44px;
+  max-width: 44px;
+  object-position: contain;
+  margin: 8px;
+  filter: invert(84%) sepia(15%) saturate(850%) hue-rotate(194deg)
+    brightness(102%) contrast(93%);
+}
+
+.tech-name {
+  color: var(--green);
+}
+
+.icon-grid {
+  --gap: 8px;
+  --num-cols: 4;
+  --row-height: 70px;
+  box-sizing: border-box;
+  padding: var(--gap);
+  display: grid;
+  grid-template-columns: repeat(var(--num-cols), 1fr);
+  grid-auto-rows: var(--row-height);
+  gap: var(--gap);
+}
+
+.icon-grid > li {
+  width: 100%;
+  height: 100%;
+}

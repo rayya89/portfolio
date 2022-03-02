@@ -1,8 +1,10 @@
 import React from 'react'
 import contact from '../Data/contact.json'
-import github from '../Assets/github.svg'
-import linkedIn from '../Assets/linkedIn.svg'
-import facebook from '../Assets/facebook.svg'
+import '../Styles/Contact.css'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faGithub } from '@fortawesome/free-brands-svg-icons' 
+import { faLinkedin } from '@fortawesome/free-brands-svg-icons' 
+import { faFacebook } from '@fortawesome/free-brands-svg-icons' 
 
 
 export default function Contact() {
@@ -15,14 +17,14 @@ export default function Contact() {
             <p>Here is my contact information if you are interested in starting a collaboration.</p>
         </div>
         <div className="content">
-        <ul>
+        <ul className="contact-list">
             {
                 contact.map (contactData => {
                     return(
-                        <div className="contaier" key={contactData.id}>
-                            <li>
-                                    <img src={contactData.icon} alt="contact icon" />
-                                    <span>{contactData.detail}</span>
+                        <div key={contactData.id}>
+                            <li className="contact-item">
+                                    <img className="contact-icon" src={contactData.icon} alt="contact icon" />
+                                    <span className="contact-info">{contactData.detail}</span>
                             </li>
                         </div>
                     )
@@ -32,14 +34,15 @@ export default function Contact() {
         </div>
 
             <footer>
-                <div className="footer">
-                    <div className="socialmedia">
-                    <li><a href="https://github.com/rayya89"><img src={github} alt="github icon" /></a></li>
-                    <li><a href="https://www.linkedin.com/in/raya-altarabulsi-043410116"><img src={linkedIn} alt="linkedin icon" /></a></li>
-                    <li><a href="https://www.facebook.com/rio.tarab"><img src={facebook} alt="facebook icon" /></a></li>
-                    </div>
+                <div className="footer-content">
+                    <ul className="socialmedia">
+                        <li><a href="https://github.com/rayya89"><FontAwesomeIcon className="social-icon" icon={faGithub}/></a></li>
+                        <li><a href="https://www.linkedin.com/in/raya-altarabulsi-043410116"><FontAwesomeIcon className="social-icon" icon={faLinkedin}/></a></li>
+                        <li><a href="https://www.facebook.com/rio.tarab"><FontAwesomeIcon className="social-icon" icon={faFacebook}/></a></li>
+                    </ul>
+
                     <small> &copy; {new Date().getFullYear()} &bull; Raya Altarabulsi</small>
-                </div>
+                    </div>
             </footer>
 
     </div>

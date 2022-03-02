@@ -1,4 +1,5 @@
 import NavigationBar from "./NavigationBar";
+import '../Styles/Hero.css'
 
 export default function Hero() {
     return (

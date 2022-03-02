@@ -1,0 +1,45 @@
+@import "./MobileStyles.css";
+
+.contact-icon {
+  max-height: 24px;
+  max-width: 24px;
+  object-position: contain;
+  margin: 8px;
+  filter: invert(84%) sepia(15%) saturate(850%) hue-rotate(194deg)
+    brightness(102%) contrast(93%);
+}
+
+.contact-info {
+  display: block;
+  color: var(--light-slate);
+  margin: 8px;
+  font-size: 17px;
+}
+
+.contact-item {
+  display: flex;
+  align-items: center;
+}
+
+.social-icon {
+  height: 24px;
+  width: 24px;
+  margin: 24px;
+  filter: invert(81%) sepia(39%) saturate(539%) hue-rotate(104deg)
+    brightness(102%) contrast(102%);
+}
+
+.footer-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.socialmedia {
+  display: flex;
+  justify-content: center;
+}
+
+small {
+  color: var(--light-slate);
+}

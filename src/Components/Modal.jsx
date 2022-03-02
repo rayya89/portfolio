@@ -2,6 +2,7 @@ import React from 'react'
 import ReactDom from 'react-dom'
 import closeIcon from '../Assets/xmark.svg'
 import projects from '../Data/projects.json'
+// import '../Styles/Modal.css'
 
 
 const MODAL_STYLES = {
@@ -31,7 +32,7 @@ export default function Modal({ setOpenModal, project }) {
             <div style={MODAL_STYLES}>
                 <button onClick={() => setOpenModal(false)}><img src={closeIcon} width={16} height={16} alt="close icon" /></button>
                 <div className="modal-image">
-                    <img src={projects.at(project).screenshot} width={327} height={184} alt="project screenshot"/>
+                    <img src={projects.at(project).screenshot} width={300} height={150} alt="project screenshot"/>
                 </div>
                 <div className="modal-title">
                     <h2>{projects.at(project).title}</h2>
@@ -43,7 +44,7 @@ export default function Modal({ setOpenModal, project }) {
                 <div className="modal-tech">
                 {projects.at(project).techUsed.map (techUsed => {
                     return(
-                        <span>{techUsed}</span>
+                        <span key={projects.at(project).id}>{techUsed}</span>
                     )
                 })}
                 </div>
@@ -51,7 +52,8 @@ export default function Modal({ setOpenModal, project }) {
                 <button className="button-secondary"><a href={projects.at(project).gitLink}>Git repository</a></button>
             </div>
         </div>
-        </>,
+        </>
+        ,
         document.getElementById('portal')
     )
 }

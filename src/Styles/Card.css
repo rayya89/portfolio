@@ -1,0 +1,23 @@
+@import "./MobileStyles.css";
+
+.card {
+  max-height: 164px;
+  max-width: 156px;
+  background-color: var(--light-navy);
+  border-radius: var(--radius);
+}
+
+.card img {
+  height: 116px;
+  width: 156px;
+  object-fit: cover;
+  border-radius: var(--radius);
+}
+
+.card h3 {
+  font-family: var(--secondary-font);
+  color: var(--light-slate);
+  font-size: 14px;
+  font-weight: 500;
+  color: var(--green);
+}
