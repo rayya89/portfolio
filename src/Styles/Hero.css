@@ -1,7 +1,14 @@
-@import "./MobileStyles.css";
+@import "./Styles.css";
 
 .hero {
   display: grid;
   place-content: center;
   height: 100vh;
+  margin: 24px;
+}
+
+@media all and (min-width: 801px) {
+  .hero {
+    margin: 400px;
+  }
 }

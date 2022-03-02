@@ -1,4 +1,4 @@
-@import "./MobileStyles.css";
+@import "./Styles.css";
 
 .logo {
   height: 56px;
@@ -22,7 +22,6 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  /* position:fixed; */
 }
 
 .nav-bar {

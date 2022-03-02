@@ -9,6 +9,7 @@ import { faFacebook } from '@fortawesome/free-brands-svg-icons'
 
 export default function Contact() {
   return (
+      <div>
     <div className="contact" id="Contact">
         <div className="heading">
             <h2>Contact me</h2>
@@ -32,7 +33,7 @@ export default function Contact() {
             }
             </ul>
         </div>
-
+        </div>
             <footer>
                 <div className="footer-content">
                     <ul className="socialmedia">
@@ -45,6 +46,7 @@ export default function Contact() {
                     </div>
             </footer>
 
-    </div>
+
+</div>
   )
 }

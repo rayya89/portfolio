@@ -1,4 +1,10 @@
-@import "./MobileStyles.css";
+@import "./Styles.css";
+
+.contact {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
 
 .contact-icon {
   max-height: 24px;
@@ -14,6 +20,7 @@
   color: var(--light-slate);
   margin: 8px;
   font-size: 17px;
+  white-space: nowrap;
 }
 
 .contact-item {
@@ -42,4 +49,29 @@
 
 small {
   color: var(--light-slate);
+}
+
+@media all and (min-width: 801px) {
+  .contact {
+    margin-top: 75 px;
+    padding: 100px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 2fr;
+  }
+
+  .heading {
+    grid-column: 1/2;
+    grid-row: 1/2;
+  }
+
+  .paragraph {
+    grid-column: 1/2;
+    grid-row: 2/3;
+  }
+
+  .content {
+    grid-column: 2/3;
+    grid-row: 2/3;
+  }
 }
