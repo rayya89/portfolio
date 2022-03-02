@@ -9,7 +9,7 @@ export default function Projects() {
 
 
   return (
-    <div className="projects">
+    <div className="projects" id="Projects">
         <div className="heading">
             <h2>Projects</h2>
         </div>

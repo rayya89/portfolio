@@ -3,7 +3,7 @@ import tech from '../Data/technologies.json'
 
 export default function Technologies() {
   return (
-    <div className="tech">
+    <div className="tech" id="Tech">
         <div className="heading">
             <h2>Technologies</h2>
         </div>

@@ -3,7 +3,7 @@ import Photo from '../Assets/Me.jpg'
 
 export default function About() {
   return (
-    <div className="about">
+    <div className="about" id="About">
       <div className="heading">
           <h2>About me</h2>
         </div>
