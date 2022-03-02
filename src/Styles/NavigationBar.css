@@ -17,23 +17,25 @@
   top: 0;
   right: 0;
   height: 60px;
-  width: 100%;
+  width: 100vw;
   background-color: var(--navy);
   display: flex;
   justify-content: center;
   align-items: center;
+  z-index: 1000;
 }
 
 .nav-bar {
   height: 30px;
   max-width: 100%;
-  border-radius: 30px;
+  border-radius: var(--border);
   background-color: var(--light-navy);
   padding-left: 30%;
   padding-right: 30%;
   display: flex;
   justify-content: space-around;
   align-items: center;
+  z-index: 1000;
 }
 
 .nav-item {
