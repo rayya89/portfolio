@@ -4,7 +4,7 @@ import Card from './Card'
 import '../Styles/Projects.css'
 
 
-
+// No formatting -1
 export default function Projects() {
 
     const [openModal, setOpenModal] = useState(false);
