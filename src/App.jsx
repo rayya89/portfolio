@@ -4,16 +4,15 @@ import Projects from "./Components/Projects";
 import Technologies from "./Components/Technologies";
 import Contact from "./Components/Contact";
 
-
-
+// Good
 export default function App() {
   return (
     <div className="App">
-      <Hero/>
-      <About/>
-      <Projects/>
-      <Technologies/>
-      <Contact/>
+      <Hero />
+      <About />
+      <Projects />
+      <Technologies />
+      <Contact />
     </div>
   );
 }
