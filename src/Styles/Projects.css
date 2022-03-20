@@ -4,22 +4,33 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
+  margin-bottom: 64px;
 }
 
-.project button:hover {
-  cursor: pointer;
+.projects h2,
+p {
+  margin-bottom: 16px;
+  margin-left: 24px;
+  margin-right: 24px;
+}
+
+.projects .content {
+  display: grid;
+  place-content: center;
+  margin-left: 16px;
+  margin-right: 16px;
 }
 
 .card-grid {
-  --gap: 16px;
   --num-cols: 2;
   --row-height: 168px;
   box-sizing: border-box;
-  padding: var(--gap);
+  padding: 16px;
   display: grid;
   grid-template-columns: repeat(var(--num-cols), 1fr);
   grid-auto-rows: var(--row-height);
-  gap: var(--gap);
+  row-gap: 16px;
+  column-gap: 8px;
 }
 
 .card-grid > li {

@@ -63,8 +63,7 @@ export default function Contact() {
           </ul>
 
           <small>
-            {/* Dont use this " " for space, even if they are inserted by mistake, you need to remove them -1 */}{" "}
-            &copy; {new Date().getFullYear()} &bull; Raya Altarabulsi
+            &copy;{new Date().getFullYear()}&bull;Raya Altarabulsi
           </small>
         </div>
       </footer>

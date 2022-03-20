@@ -1,0 +1,146 @@
+:root {
+  --navy: #112240;
+  --light-navy: #233554;
+  --green: #64ffda;
+  --slate: #a8b2d1;
+  --light-slate: #ccd6f6;
+  --primary-font: "Roboto", sans-serif;
+  --secondary-font: "Roboto Mono", monospace;
+  --letter-space: 1.5px;
+  --radius: 4px;
+  font-family: var(--primary-font);
+  background-color: var(--navy);
+  border-radius: var(--radius);
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-smooth: always;
+  --webkit-font-smoothing: antialiased;
+  --moz-osx-font-smothong: grayscale;
+  text-rendering: optimizeLegibility;
+  -webkit-tap-highlight-color: transparent;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+button {
+  background-color: transparent;
+  border-width: 0;
+  font-family: inherit;
+  font-size: inherit;
+  font-style: inherit;
+  font-weight: inherit;
+  line-height: inherit;
+  padding: 0;
+}
+
+li {
+  list-style: none;
+}
+
+ul {
+  list-style: none;
+}
+
+h1 {
+  font-size: 34px;
+  color: var(--slate);
+  letter-spacing: 1.5px;
+}
+
+h2 {
+  font-size: 22px;
+  color: var(--green);
+  letter-spacing: 1.5px;
+  margin-bottom: 16px;
+}
+
+h3 {
+  font-size: 19px;
+  color: var(--light-slate);
+  font-weight: 400;
+}
+
+p {
+  font-size: 16px;
+  color: var(--slate);
+  line-height: 1.5;
+}
+
+p span {
+  display: block;
+}
+
+a {
+  text-decoration: none;
+  font-size: 11px;
+  font-weight: 500;
+}
+
+.a:hover {
+  cursor: pointer;
+}
+
+/* .heading {
+  margin-top: 48px;
+  margin-left: 24px;
+  margin-right: 24px;
+}
+
+.paragraph {
+  margin-top: 16px;
+  margin-left: 24px;
+  margin-right: 24px;
+}
+
+.content {
+  margin-top: 16;
+  margin-left: 24px;
+  margin-right: 24px;
+} */
+
+@media all and (min-width: 801px) {
+  h1 {
+    font-size: 50px;
+    color: var(--slate);
+    letter-spacing: 1.5px;
+  }
+
+  h2 {
+    font-size: 42px;
+    color: var(--green);
+    letter-spacing: 1.5px;
+  }
+
+  h3 {
+    font-size: 24px;
+    font-weight: 500;
+  }
+
+  p {
+    font-size: 18px;
+    color: var(--slate);
+    line-height: 26px;
+  }
+
+  .heading {
+    margin-top: 96px;
+    margin-left: 248px;
+    margin-bottom: 24px;
+  }
+
+  .paragraph {
+    margin-top: 24px;
+    margin-left: 248px;
+    margin-right: 16px;
+  }
+}

@@ -4,6 +4,13 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
+  margin: 24px;
+  margin-bottom: 48px;
+}
+
+.contact p {
+  margin: 0;
+  margin-bottom: 16px;
 }
 
 .contact-icon {
@@ -36,10 +43,15 @@
     brightness(102%) contrast(102%);
 }
 
+footer {
+  background-color: var(--light-navy);
+}
+
 .footer-content {
   display: flex;
   flex-direction: column;
   align-items: center;
+  gap: 0;
 }
 
 .socialmedia {
@@ -49,6 +61,7 @@
 
 small {
   color: var(--light-slate);
+  margin-bottom: 16px;
 }
 
 @media all and (min-width: 801px) {

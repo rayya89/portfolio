@@ -7,8 +7,29 @@
   margin: 24px;
 }
 
-@media all and (min-width: 801px) {
+.hero span {
+  font-family: var(--secondary-font);
+  color: var(--green);
+  font-weight: 700;
+  letter-spacing: 2px;
+  margin-bottom: 16px;
+}
+
+.hero h1 {
+  color: var(--light-slate);
+  margin-bottom: 18px;
+}
+
+.hero h2 {
+  color: var(--slate);
+  margin-bottom: 36px;
+}
+
+.hero p {
+  margin-left: 0;
+}
+/* @media all and (min-width: 801px) {
   .hero {
     margin: 400px;
   }
-}
+} */

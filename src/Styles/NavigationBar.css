@@ -1,50 +1,40 @@
 @import "./Styles.css";
 
-.logo {
-  height: 56px;
-  width: 56px;
-  z-index: 1000;
-}
-
 .logo-image {
-  height: 56px;
-  width: 56px;
-  z-index: 1000;
+  max-height: 44px;
+  max-width: 44px;
 }
 
 .nav-container {
   position: fixed;
   top: 0;
-  right: 0;
-  height: 60px;
+  height: 8vh;
+  justify-content: space-around;
+  align-items: center;
   width: 100vw;
   background-color: var(--navy);
   display: flex;
-  justify-content: center;
-  align-items: center;
-  z-index: 1000;
+  z-index: 5000;
 }
 
 .nav-bar {
-  height: 30px;
-  max-width: 100%;
-  border-radius: var(--border);
+  height: 50%;
+  width: 75%;
+  border-radius: 3px;
   background-color: var(--light-navy);
-  padding-left: 30%;
-  padding-right: 30%;
   display: flex;
-  justify-content: space-around;
   align-items: center;
-  z-index: 1000;
+  justify-content: space-around;
+  z-index: 5000;
 }
 
 .nav-item {
   text-decoration: none;
   color: var(--light-slate);
-  padding: 16px;
   display: block;
   font-family: var(--secondary-font);
-  letter-spacing: var(--letter-space);
+  font-weight: 600;
+  letter-spacing: 1px;
 }
 
 .nav-bar .nav-item:hover {

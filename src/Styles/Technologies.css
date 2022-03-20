@@ -3,7 +3,13 @@
 .tech {
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  margin: 24px;
+  margin-bottom: 64px;
+}
+
+.tech p {
+  margin: 0;
+  margin-bottom: 16px;
 }
 
 .icon-container {

@@ -1,11 +1,12 @@
-import NavigationBar from "./NavigationBar";
 import "../Styles/Hero.css";
 
 export default function Hero() {
   return (
     <div className="hero" id="Hero">
-      <NavigationBar />
-      <h1>Hi, I am RAYA. A frontend developer from Syria. Based in Sweden.</h1>
+      <span>Hi, my name is</span>
+      <h1>Raya Altarabulsi.</h1>
+      <h2>I build things for the web.</h2>
+      <p>I am a junior front end developer and a network engineer from Syria, based in Sweden.</p>
     </div>
   );
 }

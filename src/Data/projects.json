@@ -7,7 +7,8 @@
         "description": "This Application is a shopping list that allows users to add items names and prices and allows them to set any item as complete/uncomplete",
         "techUsed": ["React", "Firebase", "CSS3"],
         "webLink" : "https://eika-shopping-list-e347a.web.app/",
-        "gitLink" : "https://github.com/rayya89/shoppingList"
+        "gitLink" : "https://github.com/rayya89/shoppingList",
+        "active": true
     },
 
     {   
@@ -18,7 +19,8 @@
         "description": "This website is for a vegan restaurant and it will be added soon",
         "techUsed": ["to be added"],
         "webLink" : "",
-        "gitLink" : "https://github.com/rayya89/"
+        "gitLink" : "https://github.com/rayya89/",
+        "active" : true
     },
 
     {   
@@ -29,7 +31,8 @@
         "description": "This application is a package tracker and it will be added soon",
         "techUsed": ["to be added"],
         "webLink" : "",
-        "gitLink" : "https://github.com/rayya89/"
+        "gitLink" : "https://github.com/rayya89/",
+        "active" : false
     },
 
     {   
@@ -40,7 +43,8 @@
         "description": "This is a todo List application and it will be added soon",
         "techUsed": ["to be added"],
         "webLink" : "",
-        "gitLink" : "https://github.com/rayya89/"
+        "gitLink" : "https://github.com/rayya89/",
+        "active" : false
     },
 
     {   
@@ -51,7 +55,8 @@
         "description": "This is an E-commerce site and it will be added soon",
         "techUsed": ["to be added"],
         "webLink" : "",
-        "gitLink" : "https://github.com/rayya89/"
+        "gitLink" : "https://github.com/rayya89/",
+        "active" : false
     },
 
     {   
@@ -62,7 +67,8 @@
         "description": "This is a BBQ restaurant website and it will be added soon",
         "techUsed": ["to be added"],
         "webLink" : "",
-        "gitLink" : "https://github.com/rayya89/"
+        "gitLink" : "https://github.com/rayya89/",
+        "active" : false
     },
 
     {   
@@ -73,7 +79,8 @@
         "description": "This is a learning platform and it will be added soon",
         "techUsed": ["to be added"],
         "webLink" : "",
-        "gitLink" : "https://github.com/rayya89/"
+        "gitLink" : "https://github.com/rayya89/",
+        "active" : false
     },
 
     {   
@@ -84,6 +91,7 @@
         "description": "This is a Netflix clone and it will be added soon",
         "techUsed": ["to be added"],
         "webLink" : "",
-        "gitLink" : "https://github.com/rayya89/"
+        "gitLink" : "https://github.com/rayya89/",
+        "active" : false
     }
 ]
