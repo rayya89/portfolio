@@ -4,6 +4,7 @@
   max-height: 44px;
   max-width: 44px;
   padding: 6px;
+  cursor: pointer;
 }
 
 .logo-name {

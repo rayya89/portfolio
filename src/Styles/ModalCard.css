@@ -17,6 +17,7 @@
   top: 16px;
   right: 16px;
   fill: var(--light-navy);
+  cursor: pointer;
 }
 
 .modal-card h3 {
