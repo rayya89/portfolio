@@ -5,6 +5,7 @@ import Projects from "./Components/Projects";
 import Technologies from "./Components/Technologies";
 import Contact from "./Components/Contact";
 import "./Styles/Styles.css";
+import Footer from "./Components/Footer";
 
 export default function App() {
   return (
@@ -15,6 +16,7 @@ export default function App() {
       <Projects />
       <Technologies />
       <Contact />
+      <Footer/>
     </div>
   );
 }

@@ -8,16 +8,16 @@ export default function Technologies() {
 
   return (
     <div className="tech" id="Tech">
-      <div className="heading">
         <h2>Technologies</h2>
-      </div>
-      <div className="paragraph">
-        <p> Here is the technologies that I already know and also starting to learn. </p>
-      </div>
-      <div className="content">
-        <ul className="icon-grid">
-          {technologyItems}
-        </ul>
+        <div className="layout-3">
+          <div className="paragraph">
+            <p> Here is the technologies that I already know and also starting to learn. </p>
+          </div>
+          <div className="content">
+            <ul className="icon-grid">
+              {technologyItems}
+            </ul>
+          </div>
       </div>
     </div>
   );

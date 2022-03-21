@@ -6,7 +6,10 @@ import { Link } from "react-scroll";
 export default function NavigationBar() {
   return (
     <nav className="nav-container">
-      <Link to="Hero"><img className="logo-image" src={Logo} alt="a logo" /></Link>
+      <div className="logo-name">
+        <Link to="Hero"><img className="logo-image" src={Logo} alt="a logo" /></Link>
+        <span>Raya Altarabulsi</span>
+      </div>
       <ul className="nav-bar">
         <li><Link className="nav-item" to="About"> About </Link></li>
         <li><Link className="nav-item" to="Projects"> Projects </Link></li>

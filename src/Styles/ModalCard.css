@@ -63,6 +63,7 @@ button {
   border-radius: var(--radius);
   padding: 10px;
   font-family: var(--secondary-font);
+  margin: 0 auto;
 }
 
 .button-primary {
@@ -80,3 +81,10 @@ button {
   justify-content: center;
   margin-bottom: 6px;
 }
+
+/* @media all and (min-width: 750px) {
+  .modal-card {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+} */

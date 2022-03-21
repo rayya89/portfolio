@@ -8,15 +8,15 @@ const Cards = projects.map((projectInfo)=> <Card key={projectInfo.id} projectInf
 
   return (
     <div className="projects" id="Projects">
-        <div className="heading">
             <h2>Projects</h2>
-        </div>
-        <div className="paragraph">
-            <p>Here are the projects I have done so far and the projects I will be making during the upcoming days.</p>
-        </div>
-        <div className="content">
-            <div className="card-grid">
-                {Cards}
+        <div className='layout-3'>
+            <div className="paragraph">
+                <p>Here are the projects I have done so far and the projects I will be making during the upcoming days.</p>
+            </div>
+            <div className="content">
+                <div className="card-grid">
+                    {Cards}
+                </div>
             </div>
         </div>
     </div>

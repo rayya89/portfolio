@@ -38,32 +38,33 @@ p {
   height: 100%;
 }
 
-@media all and (min-width: 801px) {
+@media all and (min-width: 750px) {
   .card-grid {
     --num-cols: 3;
   }
 
   .projects {
-    margin-top: 75 px;
-    margin-bottom: 75px;
+    max-width: 960px;
+    margin: 0 auto;
+    padding-top: 64px;
+    padding-bottom: 64px;
+  }
+
+  .layout-3 {
     display: grid;
-    grid-template-columns: 1fr 2fr;
-    grid-template-rows: 1fr 2fr;
+    grid-template-columns: 3fr 9fr;
   }
 
-  .heading {
-    grid-column: 1/2;
-    grid-row: 1/2;
-    align-self: end;
+  .card-grid {
+    padding: 0;
   }
 
-  .paragraph {
-    grid-column: 1/2;
-    grid-row: 2/3;
+  .projects h2,
+  p {
+    margin: 0;
   }
 
-  .content {
-    grid-column: 2/3;
-    grid-row: 2/3;
-  }
+  /* .projects .content {
+    display: block;
+  } */
 }

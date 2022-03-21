@@ -1,25 +1,14 @@
 [
-    {   
-        "id": 0,
-        "picture": "Assets/Pictures/EIKAPic.jpg",
-        "title": "EIKA shopping list",
-        "screenshot": "Assets/Pictures/EIKAApp.jpg",
-        "description": "This Application is a shopping list that allows users to add items names and prices and allows them to set any item as complete/uncomplete",
-        "techUsed": ["React", "Firebase", "CSS3"],
-        "webLink" : "https://eika-shopping-list-e347a.web.app/",
-        "gitLink" : "https://github.com/rayya89/shoppingList",
-        "active": true
-    },
-
+   
     {   
         "id": 1,
         "picture": "Assets/Pictures/VeganPic.jpg",
         "title": "Vegan restaurant website",
-        "screenshot": "Assets/Pictures/VeganPic.jpg",
-        "description": "This website is for a vegan restaurant and it will be added soon",
-        "techUsed": ["to be added"],
-        "webLink" : "",
-        "gitLink" : "https://github.com/rayya89/",
+        "screenshot": "Assets/Pictures/VeganScreenshot.jpg",
+        "description": "This is a vegan restaurant website that let users browse the restaurant menu and display the detail of each dish",
+        "techUsed": ["React", "CSS3","Firebase"],
+        "webLink" : "https://vegan-restaurant-51a1a.web.app/",
+        "gitLink" : "https://github.com/rayya89/vegan-restaurant",
         "active" : true
     },
 

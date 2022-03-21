@@ -11,6 +11,7 @@
 .contact p {
   margin: 0;
   margin-bottom: 16px;
+  margin-right: 48px;
 }
 
 .contact-icon {
@@ -23,7 +24,6 @@
 }
 
 .contact-info {
-  display: block;
   color: var(--light-slate);
   margin: 8px;
   font-size: 17px;
@@ -33,6 +33,7 @@
 .contact-item {
   display: flex;
   align-items: center;
+  margin: 0 auto;
 }
 
 .social-icon {
@@ -66,25 +67,15 @@ small {
 
 @media all and (min-width: 801px) {
   .contact {
-    margin-top: 75 px;
-    padding: 100px;
+    max-width: 960px;
+    margin: 0 auto;
+    padding-top: 64px;
+    padding-bottom: 64px;
+    margin-bottom: 48px;
+  }
+
+  .layout-2 {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 2fr;
-  }
-
-  .heading {
-    grid-column: 1/2;
-    grid-row: 1/2;
-  }
-
-  .paragraph {
-    grid-column: 1/2;
-    grid-row: 2/3;
-  }
-
-  .content {
-    grid-column: 2/3;
-    grid-row: 2/3;
   }
 }
