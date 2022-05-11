@@ -53,9 +53,9 @@
     "title": "Learning Platform",
     "screenshot": "Assets/Pictures/LearningShot.jpg",
     "description": "This is an LMS app for English Language. Using firebase, an authentication system is implemented for both teachers and students. The educational content is completely editable by the teacher",
-    "techUsed": ["React, CSS3, Firebase"],
-    "webLink": "https://github.com/rayya89/englishworld-lms",
-    "gitLink": "https://englishworld-lms.web.app/",
+    "techUsed": ["React", "CSS3", "Firebase"],
+    "webLink": "https://englishworld-lms.web.app/",
+    "gitLink": "https://github.com/rayya89/englishworld-lms",
     "active": true
   },
 
