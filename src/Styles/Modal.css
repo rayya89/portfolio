@@ -34,6 +34,14 @@
   z-index: 1000;
 }
 
+.button-primary:hover {
+  background-color: rgba(100, 255, 218, 0.3);
+}
+
+.button-secondary:hover {
+  background-color: rgba(204, 214, 246, 0.3);
+}
+
 @media all and (min-width: 750px) {
   .window {
     width: 500px;
