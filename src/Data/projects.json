@@ -13,7 +13,7 @@
 
   {
     "id": 2,
-    "picture": "Assets/Pictures/PackagePic.jpg",
+    "picture": "Assets/Pictures/PackPic.jpg",
     "title": "Package tracker",
     "screenshot": "Assets/Pictures/PackShot.jpg",
     "description": "This application is a package tracker assumes that we have one logged in user. We fetch the orders data from API and we show them along with their details ",
