@@ -1,86 +1,73 @@
 [
-   
-    {   
-        "id": 1,
-        "picture": "Assets/Pictures/VeganPic.jpg",
-        "title": "Vegan restaurant website",
-        "screenshot": "Assets/Pictures/VeganScreenshot.jpg",
-        "description": "This is a vegan restaurant website that let users browse the restaurant menu and display the detail of each dish",
-        "techUsed": ["React", "CSS3","Firebase"],
-        "webLink" : "https://vegan-restaurant-51a1a.web.app/",
-        "gitLink" : "https://github.com/rayya89/vegan-restaurant",
-        "active" : true
-    },
+  {
+    "id": 1,
+    "picture": "Assets/Pictures/VeganPic.jpg",
+    "title": "Vegan restaurant website",
+    "screenshot": "Assets/Pictures/VeganScreenshot.jpg",
+    "description": "This is a vegan restaurant website that let users browse the restaurant menu and display the detail of each dish",
+    "techUsed": ["React", "CSS3", "Json"],
+    "webLink": "https://vegan-restaurant-51a1a.web.app/",
+    "gitLink": "https://github.com/rayya89/vegan-restaurant",
+    "active": true
+  },
 
-    {   
-        "id": 2,
-        "picture": "Assets/Pictures/PackagePic.jpg",
-        "title": "Package tracker",
-        "screenshot": "Assets/Pictures/PackagePic.jpg",
-        "description": "This application is a package tracker and it will be added soon",
-        "techUsed": ["to be added"],
-        "webLink" : "",
-        "gitLink" : "https://github.com/rayya89/",
-        "active" : false
-    },
+  {
+    "id": 2,
+    "picture": "Assets/Pictures/PackagePic.jpg",
+    "title": "Package tracker",
+    "screenshot": "Assets/Pictures/PackageShot.jpg",
+    "description": "This application is a package tracker assumes that we have one logged in user. We fetch the orders data from API and we show them along with their details ",
+    "techUsed": ["React", "CSS3", "Json"],
+    "webLink": "https://package-tracker-4b529.web.app/",
+    "gitLink": "https://github.com/rayya89/packet-tracker",
+    "active": true
+  },
 
-    {   
-        "id": 3,
-        "picture": "Assets/Pictures/TTDPic.jpg",
-        "title": "Todo List TTD",
-        "screenshot": "Assets/Pictures/TTDPic.jpg",
-        "description": "This is a todo List application and it will be added soon",
-        "techUsed": ["to be added"],
-        "webLink" : "",
-        "gitLink" : "https://github.com/rayya89/",
-        "active" : false
-    },
+  {
+    "id": 3,
+    "picture": "Assets/Pictures/TTDPic.jpg",
+    "title": "Todo List TTD",
+    "screenshot": "Assets/Pictures/TTDShot.jpg",
+    "description": "A shopping list app that allows to add items and toggle the completed items. UI tests and Logic tests are added to this project using React testing library",
+    "techUsed": ["React", "React Testing Library", "CSS3"],
+    "webLink": "https://todo-testing-f6b89.web.app/",
+    "gitLink": "https://github.com/rayya89/todo-unitTest",
+    "active": true
+  },
 
-    {   
-        "id": 4,
-        "picture": "Assets/Pictures/EcommPic.jpg",
-        "title": "E-commerce site",
-        "screenshot": "Assets/Pictures/EcommPic.jpg",
-        "description": "This is an E-commerce site and it will be added soon",
-        "techUsed": ["to be added"],
-        "webLink" : "",
-        "gitLink" : "https://github.com/rayya89/",
-        "active" : false
-    },
+  {
+    "id": 4,
+    "picture": "Assets/Pictures/BBQPic.jpg",
+    "title": "BBQ restaurant website",
+    "screenshot": "Assets/Pictures/BBQShot.jpg",
+    "description": "This is a BBQ restaurant website with menu and contact information. The menu includes different categories with mutiple detailed products. The app is connected to a firebase database and admin can dynamically add/edit data",
+    "techUsed": ["React", "CSS3", "Firebase"],
+    "webLink": "https://bbqhouse-restaurant.web.app/",
+    "gitLink": "https://github.com/rayya89/bbqhouse-restaurant",
+    "active": true
+  },
 
-    {   
-        "id": 5,
-        "picture": "Assets/Pictures/BBQPic.jpg",
-        "title": "BBQ restaurant website",
-        "screenshot": "Assets/Pictures/BBQPic.jpg",
-        "description": "This is a BBQ restaurant website and it will be added soon",
-        "techUsed": ["to be added"],
-        "webLink" : "",
-        "gitLink" : "https://github.com/rayya89/",
-        "active" : false
-    },
+  {
+    "id": 5,
+    "picture": "Assets/Pictures/LearningPic.jpg",
+    "title": "Learning Platform",
+    "screenshot": "Assets/Pictures/LearningShot.jpg",
+    "description": "This is an LMS app for English Language. Using firebase, an authentication system is implemented for both teachers and students. The educational content is completely editable by the teacher",
+    "techUsed": ["React, CSS3, Firebase"],
+    "webLink": "https://github.com/rayya89/englishworld-lms",
+    "gitLink": "https://englishworld-lms.web.app/",
+    "active": true
+  },
 
-    {   
-        "id": 6,
-        "picture": "Assets/Pictures/LearningPic.jpg",
-        "title": "Learning Platform",
-        "screenshot": "Assets/Pictures/LearningPic.jpg",
-        "description": "This is a learning platform and it will be added soon",
-        "techUsed": ["to be added"],
-        "webLink" : "",
-        "gitLink" : "https://github.com/rayya89/",
-        "active" : false
-    },
-
-    {   
-        "id": 7,
-        "picture": "Assets/Pictures/NetflixPic.jpg",
-        "title": "Netflix clone",
-        "screenshot": "Assets/Pictures/NetflixPic.jpg",
-        "description": "This is a Netflix clone and it will be added soon",
-        "techUsed": ["to be added"],
-        "webLink" : "",
-        "gitLink" : "https://github.com/rayya89/",
-        "active" : false
-    }
+  {
+    "id": 6,
+    "picture": "Assets/Pictures/NetflixPic.jpg",
+    "title": "Netflix clone",
+    "screenshot": "Assets/Pictures/NetflixPic.jpg",
+    "description": "This is a Netflix clone and it will be added soon",
+    "techUsed": ["to be added"],
+    "webLink": "",
+    "gitLink": "https://github.com/rayya89/",
+    "active": false
+  }
 ]
